@@ -1,4 +1,4 @@
-﻿#include <c8051f020.h>
+#include <c8051f020.h>
 #include "Declarations_GPIO_BSE.h"
 #include "LIB_BSE_Timers.h"
 #include "LIB_BSE_Config_Globale.h"
@@ -15,8 +15,7 @@ void main()
 
 	send_String(s);// Envoie la chaine de caratère Via l'UART0.
 	Getchar(); 		 // Recupère le caractère de l'UART0.
-/*Pinaise j'ai peut être compris*/
-	/*Pinaise j'ai peut être compris*/
+
 	while(1){
 		ACQ_ADC();
 		
